@@ -1,9 +1,9 @@
 
 resource "aws_s3_bucket" "example" {
-  bucket = "18mar2026bucket-mukya"
+  bucket = var.bucket_name
 
   tags = {
-    Name        = "18mar2026bucket-mukya"
+    Name        = var.bucket_name
     Environment = "Dev"
   }
 }

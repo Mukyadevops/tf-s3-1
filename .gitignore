@@ -1,0 +1,6 @@
+# Local .terraform directory (contains providers and modules)
+.terraform/
+.terraform*
+# .tfstate files (Contains sensitive data and resource IDs)
+*.tfstate
+*.tfstate.*
