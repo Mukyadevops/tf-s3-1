@@ -12,3 +12,5 @@ resource "aws_vpc" "mukyatf_vpc" {
     ManagedBy   = "Terraform"
   }
 }
+
+# Subnet block 
